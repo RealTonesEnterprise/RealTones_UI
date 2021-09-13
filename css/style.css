@@ -33,11 +33,17 @@ body {
 a:active {
 	outline:0;
 }
+hr.new4 {
+	border-top: 3px double #8c8b8b;
+}
 
 .clear {
 	clear:both;
 }
-
+.company-name{
+	font-family: Helvetica;
+	text-align: center;
+}
 h1,h2{
 	font-weight: 600;
 	line-height:1.1em;
@@ -981,7 +987,7 @@ footer ul.link-list li a{
 	color: #8C8C8C;
 }
 footer ul.link-list li a:hover {
-	color: #111523;
+	color: #ffffff;
 }
 /* --- Heading style --- */
 
@@ -1135,6 +1141,10 @@ ul.team-detail li ul.social-network li i {
 
 .pricing-offer sup{
 	font-size:28px;
+}
+.contact1{
+	color: white;
+	font-size: 14px;
 }
 
 .pricing-container{

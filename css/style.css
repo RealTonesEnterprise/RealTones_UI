@@ -750,13 +750,6 @@ form#commentform textarea {
 	margin-bottom: 20px;
 }
 
-#call-to-action {
-	background: url(../images/bg/about.html) no-repeat;
-	background-attachment: fixed;
-	background-position: top center;
-	padding: 100px 0;
-	color: #fff;
-}
 
 .call-to-action h3 {
 	font-size: 40px;
@@ -1214,7 +1207,6 @@ article img.pull-right, article .align-right{
 	float:right;
 	margin:5px 0 15px 15px;
 }
- ============================= */
 
 .clear-marginbot{
 	margin-bottom:0;

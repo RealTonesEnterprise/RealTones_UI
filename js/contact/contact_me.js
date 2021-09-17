@@ -25,7 +25,7 @@ $(function() {
 	 $.ajax({
                 url: "https://formspree.io/f/xgerdkja",
             	type: "POST",
-            	data: {email: email, message: message},
+            	data: {name:name,email: email, message: message},
             	cache: false,
             	success: function() {  
             	// Success message

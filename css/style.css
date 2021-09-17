@@ -47,7 +47,15 @@ hr.new4 {
 }
 .company-name{
 	font-family: Helvetica;
-	text-align: center;
+	text-align: center !important;
+	text-decoration: none;
+}
+.companyname{
+	text-decoration: none !important;
+}
+.company-name:hover{
+	text-decoration: none !important;
+	color: #ff9818;
 }
 h1,h2{
 	font-weight: 600;
@@ -877,6 +885,21 @@ ul.link-list li{
 .contact1{
 	font-size: 15px;
 	color: #8C8C8C !important;
+}
+.dropdown:hover>.dropdown-menu {
+	display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+	/*Without this, clicking will make it sticky*/
+	pointer-events: none;
+}
+.footer-info{
+	color:#8C8C8C;
+}
+.footer-logo{
+	height: 40px;
+	margin-bottom: 15px;
 }
 footer{background: #1d1d1d;}
 footer ul.link-list li a{

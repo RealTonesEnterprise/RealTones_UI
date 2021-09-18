@@ -122,6 +122,18 @@
 								draggable: true
 							}).setLngLat([72.8311182,19.3856496]).addTo(map);
 							map.addControl(new mapboxgl.NavigationControl());
+							// Add geolocate control to the map.
+							map.addControl(
+									new mapboxgl.GeolocateControl({
+										positionOptions: {
+											enableHighAccuracy: true
+										},
+											// When active the map will receive updates to the device's location as it changes.
+										trackUserLocation: true,
+												// Draw an arrow next to the location dot to indicate which direction the device is heading.
+										showUserHeading: true
+									})
+							);
 							const popup = new mapboxgl.Popup({ closeOnClick: false })
 								.setLngLat([72.8311182,19.3856496])
 								.setHTML('<a href="https://www.google.com/maps/place/Tirupati+Trade+Centre/@19.3855627,72.8316428,16.74z/data=!4m12!1m6!3m5!1s0x3be7af6891498abd:0x574dd25878146df6!2sTirupati+Trade+Centre!8m2!3d19.385658!4d72.8333052!3m4!1s0x3be7af6891498abd:0x574dd25878146df6!8m2!3d19.385658!4d72.8333052" target="_blank" style="outline: none !important;">104, Trupati trade center<br>Navghar Vasai <br>East Mumbai India</a>')

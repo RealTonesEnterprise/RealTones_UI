@@ -734,7 +734,14 @@ form#commentform textarea {
 	//text-align: justify;
 }
 
-.about-image img {
+@media (max-width: 767px) {
+	.about-image{
+		width: 292px;
+	}
+	.about-text{
+		width: 348px;
+		text-align: left;
+	}
 }
 
 .about-text ul {

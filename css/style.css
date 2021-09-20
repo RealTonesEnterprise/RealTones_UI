@@ -735,8 +735,9 @@ form#commentform textarea {
 }
 
 @media (max-width: 767px) {
-	.about-image{
-		width: 292px;
+	.about-image2{
+		overflow: hidden;
+		width: 345px;
 	}
 	.about-text{
 		width: 348px;

@@ -1015,6 +1015,12 @@ display:block;
 
 }
 
+@media (max-width: 767px) {
+	.box-area-full{
+		padding-top: 15px;
+	}
+}
+
 .box-area p{
 	color: white !important;
 }
@@ -1027,6 +1033,7 @@ display:block;
 	background: #333;
 	margin-top: -21px;
 	border: 4px solid #333;
+	height: 180px;
 }
 .box-area h3{font-size: 17px;font-weight: 600;}
 /* --- Map --- */

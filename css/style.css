@@ -32,8 +32,8 @@ body {
 	display: flex;
 }
 .navbar-img{
-	height: 35px;
-	width: 170px;
+	height: 53px;
+	width: 200px;
 }
 a:active {
 	outline:0;

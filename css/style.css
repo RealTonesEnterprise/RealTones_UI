@@ -1555,5 +1555,37 @@ padding-top: 3px;
 
 
 }
+.realtones-product{
+	width: 380px;
+}
+.realtones-heading{
+	padding-bottom: 50px;
+}
+.realtones-product-image{
 
- 
+	padding-top: 30px;
+	padding-left: 100px;
+	padding-bottom: 30px;
+}
+.realtones-product-about{
+
+	padding-top: 30px;
+	padding-left: 100px;
+	padding-bottom: 30px;
+}
+
+.h3-text{
+	color:#ff9818;
+	font-weight: bolder !important;
+}
+.bg-real{
+	background-color: #f8fcfc;
+	border-radius: 10px;
+}
+.h5-text{
+	background-color: #ff9818;
+	width: 318px;
+	padding: 5px;
+	border-radius: 3px;
+	color:white;
+}

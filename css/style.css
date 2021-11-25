@@ -1589,3 +1589,14 @@ padding-top: 3px;
 	border-radius: 3px;
 	color:white;
 }
+
+.image-founder{
+	border-radius: 50%;	
+    width: 250px;
+    margin-left: 90px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.info{
+	margin-top: 30px;
+}

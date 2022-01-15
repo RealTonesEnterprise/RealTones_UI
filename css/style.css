@@ -1574,6 +1574,28 @@ padding-top: 3px;
 	padding-bottom: 30px;
 }
 
+/* Responsive */
+@media (max-width: 767px) {
+  .realtones-product-image {
+    left: -110px;
+  }
+}
+
+@media (max-width: 767px) {
+  .realtones-product-about {
+    left: -90px;
+  }
+}
+
+@media (max-width: 767px) {
+  .realtones-p1 {
+    left: -60px;
+  }
+}
+
+/* Responsive close of realtones cables product display */
+
+
 .h3-text{
 	color:#ff9818;
 	font-weight: bolder !important;
@@ -1596,6 +1618,20 @@ padding-top: 3px;
     margin-left: 90px;
     margin-top: 40px;
     margin-bottom: 25px;
+}
+@media (max-width: 415px){
+    .image-founder{
+	    border-radius: 50%;
+        width: 220px;
+        margin-left: 45px;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 420px){
+.cofounder-text{
+    margin-left: -60px;
+}
 }
 .info{
 	margin-top: 30px;

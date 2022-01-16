@@ -1575,13 +1575,26 @@ padding-top: 3px;
 }
 
 /* Responsive */
-@media (max-width: 767px) {
+@media (max-width: 540px) {
   .realtones-product-image {
-    left: -110px;
+    width: 400px;
+    left: -60px;
+  }
+}
+@media (max-width: 440px) {
+  .realtones-product-image {
+    width: 400px;
+    left: -90px;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 540px) {
+  .realtones-product-about {
+    left: -40px;
+  }
+}
+
+@media (max-width: 400px) {
   .realtones-product-about {
     left: -90px;
   }
@@ -1628,7 +1641,7 @@ padding-top: 3px;
         margin-bottom: 25px;
     }
 }
-@media (max-width: 420px){
+@media (max-width: 450px){
 .cofounder-text{
     margin-left: -60px;
 }
